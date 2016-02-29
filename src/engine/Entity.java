@@ -8,6 +8,8 @@ public class Entity {
 		name = in;
 	}
 	
+	
+	
 	public void print() {
 		System.out.print("Entity: " + name);
 	}

@@ -49,11 +49,13 @@ public class Engine {
 	}
 	
 	public void print() {
+		System.out.println("Board:");
 		board.print();
-		
-		for(Player p : players) {
-			
-			p.print();
-		}
+		board.drawGrid();
+//		System.out.println();
+//		for(Player p : players) {
+//			
+//			p.print();
+//		}
 	}
 }
